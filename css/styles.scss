@@ -1,0 +1,96 @@
+$color1: rgb(255, 240, 220);
+$color2: rgb(240, 187, 120);
+$color3: rgb(84, 58, 20);
+$color4: rgb(210, 140, 70);
+$color5: rgb(235, 220, 200);
+
+
+body {
+    background-color: $color1;
+}
+
+header {
+    background-color:$color2;
+}
+
+h1, h2, h3 {
+    color: $color2;
+}
+
+.btn-color {
+    background-color: $color2;
+}
+
+.btn-color:hover{
+    background-color: $color5;
+}
+
+nav {
+    color: $color3;
+}
+
+.image-with-caption {
+    margin: 20px;
+    display: inline-block;
+}
+
+.image-with-caption img {
+    width: 300px;
+    height: auto;
+}
+
+.image-with-caption figcaption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #555;
+    text-align: center;
+}
+
+.custom-accordion-button {
+    background-color: $color2; 
+    color: $color1; /* Couleur du texte */
+    border: none; /* Supprime la bordure */
+}
+
+.custom-accordion-button:hover {
+    background-color: $color4; /* Couleur de fond au survol */
+}
+
+.custom-accordion-button:not(.collapsed) {
+    background-color: $color2; /* Couleur de fond lorsque l'accordion est ouvert */
+    color: white; /* Couleur du texte */
+}
+
+.custom-accordion-body { 
+    background-color: $color5;
+}
+
+.custom-list-group-color1{
+    background-color: $color2;
+}
+
+.custom-list-group-color2{
+    background-color: $color4;
+}
+
+.custom-card{
+    background-color: $color4;
+}
+
+.custom-margin {
+    margin-right: 5px;
+}
+
+.custom-img-card{
+    width: 48px;
+    display: flex;
+    align-items: ce;
+}
+
+.custom-grid{
+    width: 300px;
+}
+
+.custom-max-width {
+    max-width: 800px;
+}

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="hobby.html">Hobby</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+        </nav>
+    </header>
+    <section class="container d-flex justify-content-center align-items-center" style="height: 100vh;">
+        <div>
+            <h1>Jérémy Rolland</h1>
+            <h2>Développeur web</h2>
+            <p class="text-xl-start">À 31 ans, je suis actuellement en <b>reconversion</b> pour travailler dans le <b>développement web</b>.
+                <br>
+                Suite à l'obtention d'un master en microélectronique à l'Université Grenoble Alpes, j'ai travaillé durant 5 ans de le milieu industriel afin de développer des programmes d'automatismes et des interfaces. J'ai pu travailler avec de gand groupes tels que Schneider Electric et ST Microelectronics.
+                <br>
+                Afin de continuer à explorer le monde de la programmation, je souhaite me détacher du matériel afin de développer des interfaces utilisant des technologies collaboratives et innovantes.
+            </p>
+            <a href="monCV.pdf" class="btn btn-color" download>Télécharger mon CV</a>
+        </div>
+        <div>
+            <img src="images/profil.png" class="img-thumbnail" alt="photo de profil">
+        </div>
+    </section> 
+    <section class="container">
+        <h3>Compétences</h3>
+
+        <div class="row row-cols-1 row-cols-md-2 g-4 custom-grid">
+            <div class="col">
+              <div class="card h-100">
+                <img src="images/logo/html.png" class="card-img-top custom-img-card" alt="logo HTML">
+                <div class="card-body">
+                  <h5 class="card-title">HTML</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="images/logo/css.png" class="card-img-top custom-img-card" alt="logo CSS">
+                <div class="card-body">
+                  <h5 class="card-title">CSS</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="images/logo/java.png" class="card-img-top custom-img-card" alt="logo Java">
+                <div class="card-body">
+                  <h5 class="card-title">Java</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="images/logo/javascript.png" class="card-img-top custom-img-card" alt="logo Javascript">
+                <div class="card-body">
+                  <h5 class="card-title">Javascript</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                  <img src="images/logo/my-sql.png" class="card-img-top custom-img-card" alt="logo my-sql">
+                  <div class="card-body">
+                    <h5 class="card-title">my-SQL</h5>
+                </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="images/logo/php.png" class="card-img-top custom-img-card" alt="logo PHP">
+                  <div class="card-body">
+                    <h5 class="card-title">PHP</h5>
+                </div>
+                </div>
+              </div>
+          </div>
+
+        <ul class="list-group custom-max-width">
+            <li class="list-group-item d-flex justify-content-between align-items-start custom-list-group-color1">
+                <div class="fw-bold">HTML</div>
+                <span class="badge bg-primary rounded-pill">débutant</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start custom-list-group-color2">
+                <div class="fw-bold">CSS</div>
+                <span class="badge bg-primary rounded-pill">débutant</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start custom-list-group-color1">
+                <div class="fw-bold">Java</div>
+                <span class="badge bg-primary rounded-pill">débutant</span>
+              </li>
+    </section>
+    <section class="container">
+        <h3>Expériences professionnelles</h3>
+        <table class="table table-bordered table-striped">
+            <thead>
+               <tr>
+                <th scope="col">Période</th>
+                <th scope="col">Poste</th>
+                <th scope="col">Société</th>
+                <th scope="col">Tâches réalisées</th>
+                </tr>  
+            </thead>  
+            <tbody>
+                <tr>
+                    <td>2022-23
+                        <br>
+                        17 mois
+                    </td>
+                    <td>Ingénieur logiciel & réseau</td>
+                    <td>Automatique et Industrie</td>
+                    <td>
+                        <p>Maintenance condition opérationnelle supervision et réseau de l'usine ST à Crolles.</p>
+                        <p>Développement, recherche de bugs, tests</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2021-22
+                        <br>
+                        17 mois
+                    </td>
+                    <td>Ingénieur logiciel</td>
+                    <td>Expleo</td>
+                    <td>
+                        <p>Conception interface homme machine pour installations de distribution Schneider Electric.</p>
+                        <p>Management des spécifications avec designers et clients, démos, développement agile</p>
+                    </td>
+                </tr>  
+            </tbody>    
+        </table> 
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body custom-card">
+                          <h5 class="card-title">Ingénieur logiciel & Réseau</h5>
+                          <h6 class="card-subtitle mb-2 text-muted">17 mois</h6>
+                          <p class="card-text">Prestation chez ST Microelectronics</p>
+                          <button type="button" class="btn btn-secondary btn-color" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Maintenance condition opérationnelle supervision et réseau de l'usine ST à Crolles.
+                            Développement, recherche de bugs, tests">
+                            En savoir plus
+                          </button>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body custom-card">
+                          <h5 class="card-title">Ingénieur logiciel</h5>
+                          <h6 class="card-subtitle mb-2 text-muted">17 mois</h6>
+                          <p class="card-text">Prestation chez Schneider Electrics</p>
+                          <button type="button" class="btn btn-secondary btn-color" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Conception interface homme machine pour installations de distribution Schneider Electric.
+                            Management des spécifications avec designers et clients, démos, développement agile">
+                            En savoir plus
+                          </button>
+                        </div>
+                      </div>
+                </div>
+            </div> 
+        </div>           
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
+        var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+            return new bootstrap.Popover(popoverTriggerEl);
+        });
+    </script>
+</body>
+</html>

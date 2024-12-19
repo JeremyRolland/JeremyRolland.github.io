@@ -1,0 +1,89 @@
+body {
+  background-color: rgb(255, 240, 220);
+}
+
+header {
+  background-color: rgb(240, 187, 120);
+}
+
+h1, h2, h3 {
+  color: rgb(240, 187, 120);
+}
+
+.btn-color {
+  background-color: rgb(240, 187, 120);
+}
+
+.btn-color:hover {
+  background-color: rgb(235, 220, 200);
+}
+
+nav {
+  color: rgb(84, 58, 20);
+}
+
+.image-with-caption {
+  margin: 20px;
+  display: inline-block;
+}
+
+.image-with-caption img {
+  width: 300px;
+  height: auto;
+}
+
+.image-with-caption figcaption {
+  margin-top: 10px;
+  font-style: italic;
+  color: #555;
+  text-align: center;
+}
+
+.custom-accordion-button {
+  background-color: rgb(240, 187, 120);
+  color: rgb(255, 240, 220); /* Couleur du texte */
+  border: none; /* Supprime la bordure */
+}
+
+.custom-accordion-button:hover {
+  background-color: rgb(210, 140, 70); /* Couleur de fond au survol */
+}
+
+.custom-accordion-button:not(.collapsed) {
+  background-color: rgb(240, 187, 120); /* Couleur de fond lorsque l'accordion est ouvert */
+  color: white; /* Couleur du texte */
+}
+
+.custom-accordion-body {
+  background-color: rgb(235, 220, 200);
+}
+
+.custom-list-group-color1 {
+  background-color: rgb(240, 187, 120);
+}
+
+.custom-list-group-color2 {
+  background-color: rgb(210, 140, 70);
+}
+
+.custom-card {
+  background-color: rgb(210, 140, 70);
+}
+
+.custom-margin {
+  margin-right: 5px;
+}
+
+.custom-img-card {
+  width: 48px;
+  display: flex;
+  align-items: ce;
+}
+
+.custom-grid {
+  width: 300px;
+}
+
+.custom-max-width {
+  max-width: 800px;
+}/*# sourceMappingURL=styles.css.map */
